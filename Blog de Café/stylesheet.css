@@ -1,0 +1,100 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #826243;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23e1e79a' fill-opacity='0.42'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.BarraHead{
+  background-image: url("banner.jpg");
+  background-size: 1300px 650px;
+}
+
+.BarraHead ul{
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.BarraHead li{
+  margin-right: 25px;
+}
+
+.BarraHead h1{
+  margin-right: 800px;
+}
+
+#CuerpoHead{
+  color: white;
+  display:grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#BodyHead{
+  display: grid;
+  justify-content: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "ImagenTecnica TextoTecnica" "ImagenTaller TextoTaller";
+}
+
+.ImagenTecnica{
+  grid-area: ImagenTecnica;
+}
+
+.ImagenTaller{
+  grid-area: ImagenTaller;
+}
+
+.TextoTaller{
+  grid-area: TextoTaller;
+}
+
+.TextoTecnica{
+  grid-area: TextoTecnica;
+}
+
+.ImagenTaller img{
+  width: 400px;
+  height: 500px;
+}
+
+.ImagenTecnica img{
+  width: 400px;
+  height: 500px;
+}
+
+.BarraFoot{
+  background-color: #27331B;
+  background-size: auto;
+}
+
+.BarraFoot ul{
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.BarraFoot li{
+  margin-right: 25px;
+}
+
+.BarraFoot h1{
+  margin-right: 800px;
+}
+
+a {
+  color: white
+}
+
+a :hover{
+  color: #BFBD35;
+}
